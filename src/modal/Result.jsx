@@ -23,7 +23,7 @@ const Result = () => {
                 <span ref={spanRef} style={eAns.index?{color:'green'}:{color:'red'}}>{eAns.index?'correct':'wrong'}</span>
               </div>
             ):''}
-            <div>Your score: {score}  {score < 8?' A SHAME':" A true Otaku!"}</div>
+            <div>Your score: {score}  {score < 12?' A SHAME':" A true Otaku!"}</div>
         </div>
     </Wrapper>
   )
